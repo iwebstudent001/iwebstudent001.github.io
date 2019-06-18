@@ -9,7 +9,7 @@ body {
 
 a {
     text-decoration: none;
-    color: red;
+    color: darkred;
 }
 
 h1, h2, h3, p {
@@ -19,7 +19,7 @@ h1, h2, h3, p {
 /* HEADER */
 header {
     background: black;
-    color: whote;
+    color: white;
     padding: 1em 2em;
 }
 
@@ -38,7 +38,7 @@ header {
     margin: 0;
 }
 
-/* NAV */
+/* SITE NAV */
 nav ul {
     display: flex;
     justify-content: flex-end;
@@ -84,8 +84,9 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: red;
+    background: darkred;
     min-height: 50vh;
+    color: white;
 }
 
 .page-sub .hero {
@@ -100,7 +101,6 @@ section {
 }
 
 .hero p {
-    color: white;
     margin: 1em auto;
 }
 
