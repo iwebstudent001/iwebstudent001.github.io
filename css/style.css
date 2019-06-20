@@ -9,7 +9,7 @@ body {
 
 a {
     text-decoration: none;
-    color: darkred;
+    color: #058;
 }
 
 h1, h2, h3, p {
@@ -18,13 +18,10 @@ h1, h2, h3, p {
 
 /* HEADER */
 header {
-    background: black;
-    color: white;
     padding: 1em 2em;
 }
 
 header a {
-    color: white;
 }
 
 header {
@@ -79,19 +76,18 @@ section {
     padding: 3em 1em;
 }
 
-/* HERO */
+/* HERO SECTIONS */
 .hero {
     display: grid;
     align-content: center;
     text-align: center;
-    background: darkred;
+    background: #058;
     min-height: 50vh;
     color: white;
 }
 
 .page-sub .hero {
     min-height: 30vh;
-    background: #888;
 }
 
 .hero h2 {
@@ -102,6 +98,12 @@ section {
 
 .hero p {
     margin: 1em auto;
+}
+
+.page-home .hero {
+    background-image: url('https://picsum.photos/id/1041/1600/800');
+    background-position: center top;
+    background-size: cover;
 }
 
 /* Lists */
@@ -136,3 +138,4 @@ section {
     opacity: .5;
     font-size: .8em;
 }
+
