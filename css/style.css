@@ -5,11 +5,12 @@
 body {
     font-family: sans-serif;
     margin: 0;
+    color: #444;
 }
 
 a {
-    text-decoration: none;
-    color: #058;
+    /* text-decoration: none; */
+    color: #000;
 }
 
 h1, h2, h3, p {
@@ -19,9 +20,11 @@ h1, h2, h3, p {
 /* HEADER */
 header {
     padding: 1em 2em;
+    background-color: #ccc;
 }
 
 header a {
+    text-decoration: none;
 }
 
 header {
@@ -62,6 +65,9 @@ footer {
 footer nav ul {
     justify-content: center;
 }
+footer a {
+    text-decoration: none;
+}
 
 
 /* MAIN */
@@ -81,9 +87,9 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: #058;
+    background: #ddd;
     min-height: 50vh;
-    color: white;
+    /* color: white; */
 }
 
 .page-sub .hero {
@@ -101,9 +107,9 @@ section {
 }
 
 .page-home .hero {
-    background-image: url('https://picsum.photos/id/1041/1600/800');
+    /* background-image: url('https://picsum.photos/id/1041/1600/800');
     background-position: center top;
-    background-size: cover;
+    background-size: cover; */
 }
 
 /* Lists */
